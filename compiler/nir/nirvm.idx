@@ -1,0 +1,12 @@
+nimTitle	nirvm	nir/nirvm.html	module nir/nirvm		0
+nim	Bytecode	nir/nirvm.html#Bytecode	object Bytecode		117
+nim	Universe	nir/nirvm.html#Universe	object Universe		131
+nim	initBytecode	nir/nirvm.html#initBytecode,ref.NirModule	proc initBytecode(m: ref NirModule): Bytecode		136
+nim	InvalidPatchPos	nir/nirvm.html#InvalidPatchPos	const InvalidPatchPos		219
+nim	len	nir/nirvm.html#len,Bytecode	proc len(bc: Bytecode): int		251
+nim	triples	nir/nirvm.html#triples.i,Bytecode,CodePos	iterator triples(bc: Bytecode; n: CodePos): (uint32, int, CodePos)		301
+nim	toString	nir/nirvm.html#toString,Bytecode,CodePos,string,int	proc toString(t: Bytecode; pos: CodePos; r: var string; nesting = 0)		315
+nim	typeId	nir/nirvm.html#typeId,Instr	proc typeId(ins: Instr): TypeId		757
+nim	immediateVal	nir/nirvm.html#immediateVal,Instr	proc immediateVal(ins: Instr): int		761
+nim	litId	nir/nirvm.html#litId,Instr	proc litId(ins: Instr): LitId		765
+nim	execCode	nir/nirvm.html#execCode,Bytecode,Tree,NodePos	proc execCode(bc: var Bytecode; t: Tree; n: NodePos)		1104
